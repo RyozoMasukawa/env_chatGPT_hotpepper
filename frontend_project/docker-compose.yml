@@ -8,4 +8,6 @@ services:
       - ./node:/usr/src/app:cached
     command: sh -c "cd react-sample && yarn start"
     ports:
+    #TODO
+    #任意のポート番号に変更して下さい(前側)
       - "3000:3000"
